@@ -12,7 +12,7 @@
 				<tr v-for="user in online.active">
 					<td v-if="user.isMining"><span class="badge badge-success">Yes</span</td>
 					<td v-else><span class="badge badge-danger">No</span</td>
-					<td><a v-bind:href="'https://explorer.zcha.in/accounts/' + user.address">{{user.address}}</a></td>
+					<td><a v-bind:href="'https://explorer.btcprivate.org/address/' + user.address">{{user.address}}</a></td>
 					<td>
 						<div class="progress">
 							<div class="progress-bar bg-success" role="progressbar"

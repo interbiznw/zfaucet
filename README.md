@@ -1,5 +1,7 @@
-# zecfaucet
-Simple Zcash(ZEC) faucet built with Node.
+# zfaucet
+Simple BTCP + Zcash(ZEC) faucet built with Node.
+
+### Originally by super3
 
 [![Build Status](https://travis-ci.org/super3/zfaucet.svg?branch=master)](https://travis-ci.org/super3/zfaucet)
 [![Coverage Status](https://coveralls.io/repos/github/super3/zfaucet/badge.svg?branch=master)](https://coveralls.io/github/super3/zfaucet?branch=master)

@@ -1,7 +1,7 @@
 {
   "name": "zfaucet",
   "version": "0.1.0",
-  "description": "Simple Zcash(ZEC) faucet built with Node.",
+  "description": "Simple 'Z' crypto faucet built with Node.",
   "main": "server.js",
   "engines": {
     "node": "8.11.2"
@@ -29,7 +29,7 @@
     "apicache": "^1.2.1",
     "axios": "^0.18.0",
     "base58check": "^2.0.0",
-    "bitcoinjs-lib": "^3.3.2",
+    "bitcoinjs-lib": "ch4ot1c/bitcoinjs-lib",
     "body-parser": "^1.18.2",
     "decamelize": "^2.0.0",
     "dog-names": "^1.0.2",

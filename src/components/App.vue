@@ -20,7 +20,7 @@
 		  <div v-bind:class="{ hidden: mining }">
 			<label><b>Your wallet address:</b></label>
 			<input type="text" class="form-control bottom-space"
-			 placeholder="Your ZEC Address (e.g. t1hASvMj8e6TXWryuB3L5TKXJB7XfNioZP3)"
+			 placeholder="Your BTCP Address (e.g. b1RXUJgnuxtzHyJ5UTWerh4pNBWcVikESZe)"
 			 v-model.trim="address"
 			 v-bind:class="{ hidden: mining, 'is-valid': addressValid, 'is-invalid': !addressValid }">
 
@@ -214,7 +214,7 @@ module.exports = {
 
 			const content = `
 				<style>* { font-family: sans-serif; }</style>
-				<h1>zFaucet.org Wallet Backup</h1>
+				<h1>zFaucet - Wallet Backup</h1>
 				<h2>Address: ${address}</h2>
 				<h2>Private Key: ${privateKey}</h2>
 			`;
