@@ -20,7 +20,7 @@
 		  <div v-bind:class="{ hidden: mining }">
 			<label><b>Your wallet address:</b></label>
 			<input type="text" class="form-control bottom-space"
-			 placeholder="Your BTCP Address (e.g. b1RXUJgnuxtzHyJ5UTWerh4pNBWcVikESZe)"
+			 placeholder="Your BTCP Address (e.g. n1Uww7ttpgRp48F8WYo9cKBB3RqKZNqPQ6j)"
 			 v-model.trim="address"
 			 v-bind:class="{ hidden: mining, 'is-valid': addressValid, 'is-invalid': !addressValid }">
 
